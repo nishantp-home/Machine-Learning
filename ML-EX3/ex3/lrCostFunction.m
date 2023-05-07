@@ -44,15 +44,6 @@ grad=(X'*(sigmoid(X*theta)-y))/m;
 temp=theta;
 temp(1)=0;
 grad=grad + (lambda/m)*temp;
-
-
-
-
-
-
-
-
-
 % =============================================================
 
 grad = grad(:);
